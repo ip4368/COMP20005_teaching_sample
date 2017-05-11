@@ -17,10 +17,6 @@ typedef struct {
 } fullname_t;
 
 typedef struct {
-    int yy,mm,dd;
-} date_t;
-
-typedef struct {
     fullname_t name;
     int employeenumber;
     int annualsalary;
